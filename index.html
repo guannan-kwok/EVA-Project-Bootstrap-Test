@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> UX/UI Homework 20</title>
+    <!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Nav Bar-->
+   
+    <nav class="navbar navbar-expand-lg navbar-light"  style="background-color: #e3f2fd;">
+        <a class="navbar-brand" href="#"> Matthew Kwok</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Skills</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Work</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">EVA Site Redesign</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Curbside Pickup App</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Travel App</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+
+      <h1> EVA Website Redesign</h1>
+    <!-- Project Nav-->
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Project Overview</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-reserch-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Iteration</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-solution-tab" data-toggle="pill" href="#pills-solution" role="tab" aria-controls="pills-solution" aria-selected="false">Solution</a>
+          </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <img class="cover" src="images/cover.PNG">
+            <br>
+            <h2> Project Overview</h2>
+            <br>
+            <h4>Goal:</h4>
+            <br>
+            <p> The Ending Violence Association of Canada is a non-direct social service website. Its purposes are to educate and respond to gender based violence at a national level.
+                My task was to redesign Ending Violence Association's website for both desktop and mobile formats. Focus was placed on improving usability by overhauling the content structure and providing more intuitive options to find resources.
+            </p>
+            <br>
+            <h4>My Role:</h4>
+            <br>
+            <p>
+                I worked with another UX Designer when designing visual components and when testing iterations for both the mobile and desktop versions of the EVA redesign.
+            </p>
+            <br>
+            <h4>The Solution:</h4>
+            <br>
+            <p>
+                Following user testing we created and iterated upon various web and mobile prototypes.
+                With the final prototype we focused on providing clearer content organization and providing more upfront help options such as a newsletter and chat bot.
+            </p>
+            <br>
+        </div>
+        <!-- Research tab-->
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <br>
+            <h2> Research</h2>
+            <br>
+            <p>Initially a survey was sent out asking about social service websites and information preferences. A heuristic analysis, competitor analysis and user interviews were conducted to gain a better understanding of existing website issues.</p>
+            <br>
+            <p class="research">From this research I learned that:</p>
+            <br>
+            <p class="points">
+                1. 55% of users found searching for help to be the biggest challenge on the existing EVA website. <br>
+                2. Commonly expressed usability issues were poor content organization, unclear navigational menus, and unappealing visual layout which leads to people feeling disconnected from the site. <br>
+                3. Mobile and desktop platforms are pretty evenly used among social service websites: 45 vs 55 %
+            </p>
+            <br>
+            <!--Image Cards -->
+              <!-- Cards -->
+            <div class="container-fluid content">
+                <h2 class="sectionHeading"></h2>
+                <div class="row showsNear">
+        
+                <!-- Card 1 -->
+                <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+                    <div class="card">
+                    <img src="images/research overview.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Survey Data and Competitor Analysis</h5>
+                    </div>
+                    </div>
+                </div>
+                <!-- End card 1 -->
+        
+                <!-- Card 2 -->
+                <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+                    <div class="card">
+                    <img src="images/heuristics.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Content and Navbar Organization Issues</h5>
+                    </div>
+                    </div>
+                </div>
+                <!-- End card 2 -->
+        
+                <!-- Card 3 -->
+                <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+                    <div class="card">
+                    <img src="images/affinity diagram.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Users had issues finding health resources</h5>
+                    </div>
+                    </div>
+                </div>
+                <!-- End card 3 -->
+                </div>
+            </div>
+            <!-- End cards -->
+            
+                 <!-- More description-->
+                 <p class="research">User Persona</p>
+                 <br>
+                 <p>
+                    We based our user persona around an individual who is using the EVA website for research purposes. She wants to find reliable data about gender based violence so that she can better assist others as a social outreach worker at her Family Services Canada agency.
+                 </p>
+                 <br>
+                 <p class="research">User Insight:</p>
+                 <br>
+                 <p>
+                    Naomi needs to find a trustworthy website that has clear structure so she can research gender-based violence issues and be more educated in order to gather the right resources to help victims in her community through her research related work. 
+                 </p>
+                 <p class="research">Problem Statement:</p>
+                 <br>
+                 <p>
+                    During our interview and survey, we discovered that most users found the content on EVA is disorganized, not compartmentalized, and it is very difficult to find the right information. Browsing the website is also frustrating to visitors, as the categorization of content is unclear.
+                    <br><br>
+                    We believe in a clear content categorization and defined structure of the website for people who want to help their community & who want to research Gender-based Violence and assistance resources will make the website easy to use and more efficient browsing experience.
+                 </p>
+
+                </div>
+                
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...c</div>
+                <div class="tab-pane fade" id="pills-solution" role="tabpanel" aria-labelledby="pills-solution-tab">...d</div>
+
+               
+            </div>
+            <br>
+            
+
+    <!-- Bootsrap Javascript, jquery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
